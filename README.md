@@ -1,16 +1,3 @@
----
-title: GoWeb编程7-Web实战1
-category:
-  - go
-tags:
- - 计算机网络
- - go
-mathjax: true
-date: 2020-01-27 15:29:27
----
-
-本节是针对前面学到的数据库操作和Web编程的综合应用。
-
 # 1. 数据库操作
 
 用mysql进行测试，测试用数据源如下，其中`order_num`作为主键。
@@ -381,5 +368,3 @@ func handleInsert(w http.ResponseWriter, r *http.Request)(err error){
 curl -i -X INSERT -H "Content-Type: application/json"  
     -d '{"order_date":"2020-01-01 00:00:00","cust_id":"10086"}' http://127.0.0.1:8080/order/
 ```
-
-# Go-Web-Demo
