@@ -1,3 +1,7 @@
+项目分为**data和server两部分**：:water_buffalo:data负责数据库相关内容，:water_buffalo:server则是服务端相关内容。
+
+下面是整个Demo的详细介绍，详细且基础，适合初学者。:man_astronaut:
+
 # 1. 数据库操作
 
 用mysql进行测试，测试用数据源如下，其中`order_num`作为主键。
